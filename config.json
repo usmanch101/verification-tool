@@ -1,0 +1,22 @@
+{
+  "project": {
+    "name": "AI Project Phase 2",
+    "version": "1.0.0",
+    "description": "Professional verification system for AI project phases",
+    "author": "Professional AI Engineer"
+  },
+  "verification": {
+    "enabled": true,
+    "auto_run": false,
+    "telegram_integration": true
+  },
+  "database": {
+    "type": "sqlite",
+    "file": "phase2.db"
+  },
+  "api": {
+    "host": "localhost",
+    "port": 8000,
+    "base_url": "http://localhost:8000"
+  }
+}

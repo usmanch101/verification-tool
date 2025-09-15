@@ -1,0 +1,36 @@
+{
+  "telegram_token": "YOUR_BOT_TOKEN_HERE",
+  "project_name": "AI Project Phase 2 - Professional Verification System",
+  "phase2_outputs": {
+    "file_structure": {
+      "required_files": [
+        "main.py",
+        "requirements.txt",
+        "config.json",
+        "verification_tool.py"
+      ],
+      "required_dirs": [
+        "src/",
+        "tests/",
+        "data/",
+        "verification_evidence/"
+      ]
+    },
+    "database_schema": {
+      "connection_string": "sqlite:///phase2.db",
+      "required_tables": [
+        "users",
+        "conversations",
+        "models"
+      ]
+    },
+    "api_endpoints": {
+      "base_url": "http://localhost:8000",
+      "endpoints": [
+        "/health",
+        "/api/v1/chat",
+        "/api/v1/models"
+      ]
+    }
+  }
+}
